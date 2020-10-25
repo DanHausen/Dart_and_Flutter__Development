@@ -1,5 +1,6 @@
 main() {
   _firstConst();
+  _secondTest();
 }
 
 _firstConst() {
@@ -15,4 +16,9 @@ _firstConst() {
   print(aConstNum.runtimeType);
   print(aConstBool.runtimeType);
   print(aConstString.runtimeType);
+}
+
+_secondTest() {
+  int num;
+  print(num);
 }
